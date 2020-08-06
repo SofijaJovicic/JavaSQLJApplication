@@ -1,0 +1,6 @@
+Napisati program koji omogucava pregled i stampanje kvota za upis po smerovima. Program komunicira sa korisnikom preko panela koji omogucava unos godine i izbor smera, prvo izborom nivoa kvalifikacije, a potom i smera sa izabranog nivoa. Ukoliko se ne izabere smer prikazati kvote za sve smerove te skolske godine, a ukoliko ni godina nije navedena prikazati sve podatke koji postoje u tabeli kvota. Izvestaj stampati u datoteku "kvote.XXXXX.YYYYY" gde su XXXXX, YYYYY unete oznaka smera, godina upisa. Ukoliko neki od trazenih podataka nije unet, u delu imena datoteke uneti "zbirno". Izvestaj formirati da bude pregledan.
+Program treba da obezbedi sledece:
+- Obrada jednog zahteba treba da predstavlja jednu transakciju (ako je sve u redu na kraju sledi commit). U slucaju da transakcija ne moze da bude izvrsena, prijaviti odgovarajuci kod greske
+- Obezbediti kontrolu ispravnosti unetih podataka
+- Izlazak iz programa se postize pritiskom na dugme "Kraj" na pocetnom panelu
+- Program napisati tako da radi u visekorisnickom rezimu. Obraditi sve moguce greske.
